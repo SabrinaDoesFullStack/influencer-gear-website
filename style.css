@@ -1,0 +1,31 @@
+/* popping font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+/* start nav bar section */
+.menu{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ padding-top: 60px;
+ padding-left: 120px;
+ padding-right: 120px;
+ padding-bottom: 20px;
+}
+.logo{
+  font-size: 24px;
+  font-weight:700;
+}
+.menus{
+  display: flex;
+  list-style: none;
+}
+.item{
+ margin-right: 10px; 
+ padding-right: 7px;
+ font-size: 16px;
+ font-weight: 600;
+ cursor: pointer;
+}
