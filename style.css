@@ -40,7 +40,7 @@ font-family: 'Poppins', sans-serif;
   padding: 50px 120px 120px 10px;
   background-image: url(images/Circle\ design.svg);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: top right ;
   background-size: 400px;
 }
  .profile-pic{
@@ -77,12 +77,50 @@ font-family: 'Poppins', sans-serif;
   padding-left: 120px;
   padding-right: 120px;
   padding-bottom: 20px;
-
- 
 }
 .img{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 }
+/* end main section 1 */
+
+/* start main section 2 */
+.popular-title{
+  text-align: center;
+}
+.popular-content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 15px;
+  margin-left: 100px;
+  margin-right: 110px;
+  
+ 
+}
+.popular{
+   border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  gap: 5px;
+  width: 350px;
+  height: 480px;
+  padding-left: 14px;
+  padding-bottom: 10px;
+}
+.see-more{
+  text-align: right;
+  padding-right: 60px;
+}
+.btn{
+  color: #E02C6D;
+   border-style: none;
+   background-color: #FFF;
+   font-size: 16px;
+   font-weight: 700;
+}
+/* end main section 2 */
+
+/* start main section 3 */
+
+
